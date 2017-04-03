@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "ColorFlower.png"
+    },
+    {
+      "idiom" : "universal",
+<<<<<<< HEAD
+      "scale" : "2x"
+=======
+      "scale" : "2x",
+      "filename" : "ColorFlower@2x.png"
+>>>>>>> FETCH_HEAD
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

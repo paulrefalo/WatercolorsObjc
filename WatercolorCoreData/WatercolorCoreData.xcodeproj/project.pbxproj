@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A256C8DC190ECAD300300505 /* paints.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2DA6E06190ECA1800F63A8D /* paints.json */; };
+		A256C8DD190ECADA00300505 /* pigment.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2DA6E08190ECA1800F63A8D /* pigment.json */; };
+		A2DA6E04190ECA0900F63A8D /* Paint.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA6E01190ECA0900F63A8D /* Paint.m */; };
+		A2DA6E05190ECA0900F63A8D /* Paint+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA6E03190ECA0900F63A8D /* Paint+Extras.m */; };
+		A2DA6E0C190ECA1800F63A8D /* Pigment.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA6E09190ECA1800F63A8D /* Pigment.m */; };
+		A2DA6E0D190ECA1800F63A8D /* Pigment+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA6E0B190ECA1800F63A8D /* Pigment+Extras.m */; };
+		F07796BE19008EE300059443 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07796BD19008EE300059443 /* CoreData.framework */; };
+		F07796C019008EE300059443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07796BF19008EE300059443 /* Foundation.framework */; };
+		F07796C319008EE300059443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F07796C219008EE300059443 /* main.m */; };
+		F07796CA19008EE300059443 /* WatercolorCoreData.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F07796C919008EE300059443 /* WatercolorCoreData.1 */; };
+		F07796D219008F2300059443 /* PaintModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F07796D019008F2300059443 /* PaintModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F07796B819008EE300059443 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				A256C8DD190ECADA00300505 /* pigment.json in CopyFiles */,
+				A256C8DC190ECAD300300505 /* paints.json in CopyFiles */,
+				F07796CA19008EE300059443 /* WatercolorCoreData.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2DA6E00190ECA0900F63A8D /* Paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Paint.h; path = ../Watercolors/Paint.h; sourceTree = "<group>"; };
+		A2DA6E01190ECA0900F63A8D /* Paint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Paint.m; path = ../Watercolors/Paint.m; sourceTree = "<group>"; };
+		A2DA6E02190ECA0900F63A8D /* Paint+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Paint+Extras.h"; path = "../Watercolors/Paint+Extras.h"; sourceTree = "<group>"; };
+		A2DA6E03190ECA0900F63A8D /* Paint+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Paint+Extras.m"; path = "../Watercolors/Paint+Extras.m"; sourceTree = "<group>"; };
+		A2DA6E06190ECA1800F63A8D /* paints.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = paints.json; path = ../Watercolors/paints.json; sourceTree = "<group>"; };
+		A2DA6E07190ECA1800F63A8D /* Pigment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pigment.h; path = ../Watercolors/Pigment.h; sourceTree = "<group>"; };
+		A2DA6E08190ECA1800F63A8D /* pigment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pigment.json; path = ../Watercolors/pigment.json; sourceTree = "<group>"; };
+		A2DA6E09190ECA1800F63A8D /* Pigment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pigment.m; path = ../Watercolors/Pigment.m; sourceTree = "<group>"; };
+		A2DA6E0A190ECA1800F63A8D /* Pigment+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Pigment+Extras.h"; path = "../Watercolors/Pigment+Extras.h"; sourceTree = "<group>"; };
+		A2DA6E0B190ECA1800F63A8D /* Pigment+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Pigment+Extras.m"; path = "../Watercolors/Pigment+Extras.m"; sourceTree = "<group>"; };
+		F07796BA19008EE300059443 /* WatercolorCoreData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WatercolorCoreData; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07796BD19008EE300059443 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F07796BF19008EE300059443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F07796C219008EE300059443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F07796C519008EE300059443 /* WatercolorCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatercolorCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		F07796C919008EE300059443 /* WatercolorCoreData.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WatercolorCoreData.1; sourceTree = "<group>"; };
+		F07796D119008F2300059443 /* PaintModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaintModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F07796B719008EE300059443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07796BE19008EE300059443 /* CoreData.framework in Frameworks */,
+				F07796C019008EE300059443 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F07796B119008EE300059443 = {
+			isa = PBXGroup;
+			children = (
+				A2DA6E06190ECA1800F63A8D /* paints.json */,
+				A2DA6E07190ECA1800F63A8D /* Pigment.h */,
+				A2DA6E08190ECA1800F63A8D /* pigment.json */,
+				A2DA6E09190ECA1800F63A8D /* Pigment.m */,
+				A2DA6E0A190ECA1800F63A8D /* Pigment+Extras.h */,
+				A2DA6E0B190ECA1800F63A8D /* Pigment+Extras.m */,
+				A2DA6E00190ECA0900F63A8D /* Paint.h */,
+				A2DA6E01190ECA0900F63A8D /* Paint.m */,
+				A2DA6E02190ECA0900F63A8D /* Paint+Extras.h */,
+				A2DA6E03190ECA0900F63A8D /* Paint+Extras.m */,
+				F07796C119008EE300059443 /* WatercolorCoreData */,
+				F07796BC19008EE300059443 /* Frameworks */,
+				F07796BB19008EE300059443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F07796BB19008EE300059443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07796BA19008EE300059443 /* WatercolorCoreData */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07796BC19008EE300059443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F07796BD19008EE300059443 /* CoreData.framework */,
+				F07796BF19008EE300059443 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F07796C119008EE300059443 /* WatercolorCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F07796C219008EE300059443 /* main.m */,
+				F07796D019008F2300059443 /* PaintModel.xcdatamodeld */,
+				F07796C919008EE300059443 /* WatercolorCoreData.1 */,
+				F07796C419008EE300059443 /* Supporting Files */,
+			);
+			path = WatercolorCoreData;
+			sourceTree = "<group>";
+		};
+		F07796C419008EE300059443 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F07796C519008EE300059443 /* WatercolorCoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F07796B919008EE300059443 /* WatercolorCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07796CD19008EE300059443 /* Build configuration list for PBXNativeTarget "WatercolorCoreData" */;
+			buildPhases = (
+				F07796B619008EE300059443 /* Sources */,
+				F07796B719008EE300059443 /* Frameworks */,
+				F07796B819008EE300059443 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatercolorCoreData;
+			productName = WatercolorCoreData;
+			productReference = F07796BA19008EE300059443 /* WatercolorCoreData */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F07796B219008EE300059443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Refalo;
+			};
+			buildConfigurationList = F07796B519008EE300059443 /* Build configuration list for PBXProject "WatercolorCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F07796B119008EE300059443;
+			productRefGroup = F07796BB19008EE300059443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F07796B919008EE300059443 /* WatercolorCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F07796B619008EE300059443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DA6E04190ECA0900F63A8D /* Paint.m in Sources */,
+				F07796D219008F2300059443 /* PaintModel.xcdatamodeld in Sources */,
+				A2DA6E0C190ECA1800F63A8D /* Pigment.m in Sources */,
+				A2DA6E0D190ECA1800F63A8D /* Pigment+Extras.m in Sources */,
+				F07796C319008EE300059443 /* main.m in Sources */,
+				A2DA6E05190ECA0900F63A8D /* Paint+Extras.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F07796CB19008EE300059443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F07796CC19008EE300059443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F07796CE19008EE300059443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatercolorCoreData/WatercolorCoreData-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F07796CF19008EE300059443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatercolorCoreData/WatercolorCoreData-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F07796B519008EE300059443 /* Build configuration list for PBXProject "WatercolorCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07796CB19008EE300059443 /* Debug */,
+				F07796CC19008EE300059443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07796CD19008EE300059443 /* Build configuration list for PBXNativeTarget "WatercolorCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07796CE19008EE300059443 /* Debug */,
+				F07796CF19008EE300059443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F07796D019008F2300059443 /* PaintModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F07796D119008F2300059443 /* PaintModel.xcdatamodel */,
+			);
+			currentVersion = F07796D119008F2300059443 /* PaintModel.xcdatamodel */;
+			name = PaintModel.xcdatamodeld;
+			path = ../../Watercolors/PaintModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F07796B219008EE300059443 /* Project object */;
+}

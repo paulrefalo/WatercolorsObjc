@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A24C920218FEF36000950ED7 /* PaintModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A24C920018FEF36000950ED7 /* PaintModel.xcdatamodeld */; };
+		A24C921418FF0CE800950ED7 /* FamilyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24C921318FF0CE800950ED7 /* FamilyTableViewController.m */; };
+		A256C8E9190EE13700300505 /* Paint+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = A256C8E4190EE13700300505 /* Paint+Extras.m */; };
+		A256C8EC190EE13700300505 /* Pigment+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = A256C8E8190EE13700300505 /* Pigment+Extras.m */; };
+		A26774FF190EF22100D31FA1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F058DB3318FDF66E00C225DF /* Main_iPhone.storyboard */; };
+		A26D6B391953225100FD2CAE /* WCColorSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26D6B381953225100FD2CAE /* WCColorSelectViewController.m */; };
+		A2C03938190EF2D9004F75B0 /* paint.json in Resources */ = {isa = PBXBuildFile; fileRef = A2677501190EF28200D31FA1 /* paint.json */; };
+		A2C03939190EF2D9004F75B0 /* pigment.json in Resources */ = {isa = PBXBuildFile; fileRef = A2677502190EF28200D31FA1 /* pigment.json */; };
+		A2C0393C190EF451004F75B0 /* WCPigmentSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0393B190EF451004F75B0 /* WCPigmentSearchViewController.m */; };
+		A2C0393F190EF531004F75B0 /* WCPigmentDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C0393E190EF531004F75B0 /* WCPigmentDetailTableViewController.m */; };
+		A2C03942190F053C004F75B0 /* WCPigmentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C03941190F053C004F75B0 /* WCPigmentDetailViewController.m */; };
+		A2DA6DF3190EBD7000F63A8D /* WCInventoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA6DF2190EBD7000F63A8D /* WCInventoryViewController.m */; };
+		A2DA6DF6190EBE7300F63A8D /* WCPaintDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DA6DF5190EBE7300F63A8D /* WCPaintDetailTableViewController.m */; };
+		F0005212190036A70007FA98 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0005210190036A70007FA98 /* CoreDataTableViewController.m */; };
+		F0005215190037080007FA98 /* WCAppDelegate+MOC.m in Sources */ = {isa = PBXBuildFile; fileRef = F0005214190037080007FA98 /* WCAppDelegate+MOC.m */; };
+		F01A9F8E1C26E8820012A7AB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01A9F8D1C26E8820012A7AB /* Media.xcassets */; };
+		F01A9F901C27019F0012A7AB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F058DB3618FDF66E00C225DF /* Main_iPad.storyboard */; };
+		F01A9FAF1C27C2200012A7AB /* Achromatic.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FA21C27C2200012A7AB /* Achromatic.html */; };
+		F01A9FB01C27C2200012A7AB /* Analogous.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FA31C27C2200012A7AB /* Analogous.html */; };
+		F01A9FB11C27C2200012A7AB /* ColorWheel.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FA41C27C2200012A7AB /* ColorWheel.html */; };
+		F01A9FB21C27C2200012A7AB /* Complementary.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FA51C27C2200012A7AB /* Complementary.html */; };
+		F01A9FB31C27C2200012A7AB /* Primary.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FA61C27C2200012A7AB /* Primary.html */; };
+		F01A9FB41C27C2200012A7AB /* Rectangle.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FA71C27C2200012A7AB /* Rectangle.html */; };
+		F01A9FB51C27C2200012A7AB /* Secondary.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FA81C27C2200012A7AB /* Secondary.html */; };
+		F01A9FB61C27C2200012A7AB /* Split.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FA91C27C2200012A7AB /* Split.html */; };
+		F01A9FB71C27C2200012A7AB /* Square.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FAA1C27C2200012A7AB /* Square.html */; };
+		F01A9FB81C27C2200012A7AB /* Temperature.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FAB1C27C2200012A7AB /* Temperature.html */; };
+		F01A9FB91C27C2200012A7AB /* Tertiary.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FAC1C27C2200012A7AB /* Tertiary.html */; };
+		F01A9FBA1C27C2200012A7AB /* Tints.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FAD1C27C2200012A7AB /* Tints.html */; };
+		F01A9FBB1C27C2200012A7AB /* Triadic.html in Resources */ = {isa = PBXBuildFile; fileRef = F01A9FAE1C27C2200012A7AB /* Triadic.html */; };
+		F026EC47190F305400E3FF19 /* WCPaintSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F026EC46190F305400E3FF19 /* WCPaintSearchViewController.m */; };
+		F03B58AB1958BEDA00758298 /* Pigment.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B58AA1958BEDA00758298 /* Pigment.m */; };
+		F03B58AE1958BEDA00758298 /* Paint.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B58AD1958BEDA00758298 /* Paint.m */; };
+		F058DB2218FDF66E00C225DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F058DB2118FDF66E00C225DF /* Foundation.framework */; };
+		F058DB2418FDF66E00C225DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F058DB2318FDF66E00C225DF /* CoreGraphics.framework */; };
+		F058DB2618FDF66E00C225DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F058DB2518FDF66E00C225DF /* UIKit.framework */; };
+		F058DB2C18FDF66E00C225DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F058DB2A18FDF66E00C225DF /* InfoPlist.strings */; };
+		F058DB2E18FDF66E00C225DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F058DB2D18FDF66E00C225DF /* main.m */; };
+		F058DB3218FDF66E00C225DF /* WCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F058DB3118FDF66E00C225DF /* WCAppDelegate.m */; };
+		F058DB3B18FDF66E00C225DF /* ColorWheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F058DB3A18FDF66E00C225DF /* ColorWheelViewController.m */; };
+		F058DB3E18FDF66E00C225DF /* WCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F058DB3D18FDF66E00C225DF /* WCSecondViewController.m */; };
+		F058DB4718FDF66E00C225DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F058DB4618FDF66E00C225DF /* XCTest.framework */; };
+		F058DB4818FDF66E00C225DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F058DB2118FDF66E00C225DF /* Foundation.framework */; };
+		F058DB4918FDF66E00C225DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F058DB2518FDF66E00C225DF /* UIKit.framework */; };
+		F058DB5118FDF66E00C225DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F058DB4F18FDF66E00C225DF /* InfoPlist.strings */; };
+		F058DB5318FDF66E00C225DF /* WatercolorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F058DB5218FDF66E00C225DF /* WatercolorsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F058DB4A18FDF66E00C225DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F058DB1618FDF66E00C225DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F058DB1D18FDF66E00C225DF;
+			remoteInfo = Watercolors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A24C920118FEF36000950ED7 /* PaintModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaintModel.xcdatamodel; sourceTree = "<group>"; };
+		A24C921218FF0CE800950ED7 /* FamilyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyTableViewController.h; sourceTree = "<group>"; };
+		A24C921318FF0CE800950ED7 /* FamilyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyTableViewController.m; sourceTree = "<group>"; };
+		A256C8E3190EE13700300505 /* Paint+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Paint+Extras.h"; sourceTree = "<group>"; };
+		A256C8E4190EE13700300505 /* Paint+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Paint+Extras.m"; sourceTree = "<group>"; };
+		A256C8E7190EE13700300505 /* Pigment+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pigment+Extras.h"; sourceTree = "<group>"; };
+		A256C8E8190EE13700300505 /* Pigment+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pigment+Extras.m"; sourceTree = "<group>"; };
+		A2677501190EF28200D31FA1 /* paint.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = paint.json; sourceTree = "<group>"; };
+		A2677502190EF28200D31FA1 /* pigment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pigment.json; sourceTree = "<group>"; };
+		A26D6B371953225100FD2CAE /* WCColorSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCColorSelectViewController.h; sourceTree = "<group>"; };
+		A26D6B381953225100FD2CAE /* WCColorSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCColorSelectViewController.m; sourceTree = "<group>"; };
+		A2B274DF19216903003B3F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Watercolors/Base.lproj/Main_iPhoneSave.storyboard; sourceTree = "<group>"; };
+		A2C0393A190EF451004F75B0 /* WCPigmentSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPigmentSearchViewController.h; sourceTree = "<group>"; };
+		A2C0393B190EF451004F75B0 /* WCPigmentSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCPigmentSearchViewController.m; sourceTree = "<group>"; };
+		A2C0393D190EF531004F75B0 /* WCPigmentDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPigmentDetailTableViewController.h; sourceTree = "<group>"; };
+		A2C0393E190EF531004F75B0 /* WCPigmentDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCPigmentDetailTableViewController.m; sourceTree = "<group>"; };
+		A2C03940190F053C004F75B0 /* WCPigmentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPigmentDetailViewController.h; sourceTree = "<group>"; };
+		A2C03941190F053C004F75B0 /* WCPigmentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCPigmentDetailViewController.m; sourceTree = "<group>"; };
+		A2DA6DF1190EBD7000F63A8D /* WCInventoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCInventoryViewController.h; sourceTree = "<group>"; };
+		A2DA6DF2190EBD7000F63A8D /* WCInventoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCInventoryViewController.m; sourceTree = "<group>"; };
+		A2DA6DF4190EBE7300F63A8D /* WCPaintDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPaintDetailTableViewController.h; sourceTree = "<group>"; };
+		A2DA6DF5190EBE7300F63A8D /* WCPaintDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCPaintDetailTableViewController.m; sourceTree = "<group>"; };
+		F000520F190036A70007FA98 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		F0005210190036A70007FA98 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		F0005213190037080007FA98 /* WCAppDelegate+MOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WCAppDelegate+MOC.h"; sourceTree = "<group>"; };
+		F0005214190037080007FA98 /* WCAppDelegate+MOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WCAppDelegate+MOC.m"; sourceTree = "<group>"; };
+		F01A9F8D1C26E8820012A7AB /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		F01A9FA21C27C2200012A7AB /* Achromatic.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Achromatic.html; path = html/Achromatic.html; sourceTree = "<group>"; };
+		F01A9FA31C27C2200012A7AB /* Analogous.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Analogous.html; path = html/Analogous.html; sourceTree = "<group>"; };
+		F01A9FA41C27C2200012A7AB /* ColorWheel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ColorWheel.html; path = html/ColorWheel.html; sourceTree = "<group>"; };
+		F01A9FA51C27C2200012A7AB /* Complementary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Complementary.html; path = html/Complementary.html; sourceTree = "<group>"; };
+		F01A9FA61C27C2200012A7AB /* Primary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Primary.html; path = html/Primary.html; sourceTree = "<group>"; };
+		F01A9FA71C27C2200012A7AB /* Rectangle.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Rectangle.html; path = html/Rectangle.html; sourceTree = "<group>"; };
+		F01A9FA81C27C2200012A7AB /* Secondary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Secondary.html; path = html/Secondary.html; sourceTree = "<group>"; };
+		F01A9FA91C27C2200012A7AB /* Split.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Split.html; path = html/Split.html; sourceTree = "<group>"; };
+		F01A9FAA1C27C2200012A7AB /* Square.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Square.html; path = html/Square.html; sourceTree = "<group>"; };
+		F01A9FAB1C27C2200012A7AB /* Temperature.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Temperature.html; path = html/Temperature.html; sourceTree = "<group>"; };
+		F01A9FAC1C27C2200012A7AB /* Tertiary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Tertiary.html; path = html/Tertiary.html; sourceTree = "<group>"; };
+		F01A9FAD1C27C2200012A7AB /* Tints.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Tints.html; path = html/Tints.html; sourceTree = "<group>"; };
+		F01A9FAE1C27C2200012A7AB /* Triadic.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Triadic.html; path = html/Triadic.html; sourceTree = "<group>"; };
+		F026EC45190F305400E3FF19 /* WCPaintSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPaintSearchViewController.h; sourceTree = "<group>"; };
+		F026EC46190F305400E3FF19 /* WCPaintSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCPaintSearchViewController.m; sourceTree = "<group>"; };
+		F03B58A91958BEDA00758298 /* Pigment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pigment.h; sourceTree = "<group>"; };
+		F03B58AA1958BEDA00758298 /* Pigment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pigment.m; sourceTree = "<group>"; };
+		F03B58AC1958BEDA00758298 /* Paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paint.h; sourceTree = "<group>"; };
+		F03B58AD1958BEDA00758298 /* Paint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paint.m; sourceTree = "<group>"; };
+		F058DB1E18FDF66E00C225DF /* Watercolors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watercolors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F058DB2118FDF66E00C225DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F058DB2318FDF66E00C225DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F058DB2518FDF66E00C225DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F058DB2918FDF66E00C225DF /* Watercolors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Watercolors-Info.plist"; sourceTree = "<group>"; };
+		F058DB2B18FDF66E00C225DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F058DB2D18FDF66E00C225DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F058DB2F18FDF66E00C225DF /* Watercolors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Watercolors-Prefix.pch"; sourceTree = "<group>"; };
+		F058DB3018FDF66E00C225DF /* WCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCAppDelegate.h; sourceTree = "<group>"; };
+		F058DB3118FDF66E00C225DF /* WCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAppDelegate.m; sourceTree = "<group>"; };
+		F058DB3418FDF66E00C225DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F058DB3718FDF66E00C225DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F058DB3918FDF66E00C225DF /* ColorWheelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorWheelViewController.h; sourceTree = "<group>"; };
+		F058DB3A18FDF66E00C225DF /* ColorWheelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorWheelViewController.m; sourceTree = "<group>"; };
+		F058DB3C18FDF66E00C225DF /* WCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCSecondViewController.h; sourceTree = "<group>"; };
+		F058DB3D18FDF66E00C225DF /* WCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCSecondViewController.m; sourceTree = "<group>"; };
+		F058DB4518FDF66E00C225DF /* WatercolorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatercolorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F058DB4618FDF66E00C225DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F058DB4E18FDF66E00C225DF /* WatercolorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WatercolorsTests-Info.plist"; sourceTree = "<group>"; };
+		F058DB5018FDF66E00C225DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F058DB5218FDF66E00C225DF /* WatercolorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatercolorsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F058DB1B18FDF66E00C225DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F058DB2418FDF66E00C225DF /* CoreGraphics.framework in Frameworks */,
+				F058DB2618FDF66E00C225DF /* UIKit.framework in Frameworks */,
+				F058DB2218FDF66E00C225DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058DB4218FDF66E00C225DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F058DB4718FDF66E00C225DF /* XCTest.framework in Frameworks */,
+				F058DB4918FDF66E00C225DF /* UIKit.framework in Frameworks */,
+				F058DB4818FDF66E00C225DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24C920918FEF53900950ED7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A2677501190EF28200D31FA1 /* paint.json */,
+				A2677502190EF28200D31FA1 /* pigment.json */,
+				A256C8E3190EE13700300505 /* Paint+Extras.h */,
+				A256C8E4190EE13700300505 /* Paint+Extras.m */,
+				A256C8E7190EE13700300505 /* Pigment+Extras.h */,
+				A256C8E8190EE13700300505 /* Pigment+Extras.m */,
+				F03B58A91958BEDA00758298 /* Pigment.h */,
+				F03B58AC1958BEDA00758298 /* Paint.h */,
+				F03B58AD1958BEDA00758298 /* Paint.m */,
+				F03B58AA1958BEDA00758298 /* Pigment.m */,
+				A24C920018FEF36000950ED7 /* PaintModel.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		A2DA6DF0190EBD2C00F63A8D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A26D6B371953225100FD2CAE /* WCColorSelectViewController.h */,
+				A26D6B381953225100FD2CAE /* WCColorSelectViewController.m */,
+				F000520F190036A70007FA98 /* CoreDataTableViewController.h */,
+				F0005210190036A70007FA98 /* CoreDataTableViewController.m */,
+				A2DA6DF1190EBD7000F63A8D /* WCInventoryViewController.h */,
+				A2DA6DF2190EBD7000F63A8D /* WCInventoryViewController.m */,
+				A2C0393A190EF451004F75B0 /* WCPigmentSearchViewController.h */,
+				A2C0393B190EF451004F75B0 /* WCPigmentSearchViewController.m */,
+				A2C0393D190EF531004F75B0 /* WCPigmentDetailTableViewController.h */,
+				A2C0393E190EF531004F75B0 /* WCPigmentDetailTableViewController.m */,
+				A2C03940190F053C004F75B0 /* WCPigmentDetailViewController.h */,
+				A2C03941190F053C004F75B0 /* WCPigmentDetailViewController.m */,
+				F026EC45190F305400E3FF19 /* WCPaintSearchViewController.h */,
+				F026EC46190F305400E3FF19 /* WCPaintSearchViewController.m */,
+				A2DA6DF4190EBE7300F63A8D /* WCPaintDetailTableViewController.h */,
+				A2DA6DF5190EBE7300F63A8D /* WCPaintDetailTableViewController.m */,
+				A24C921218FF0CE800950ED7 /* FamilyTableViewController.h */,
+				A24C921318FF0CE800950ED7 /* FamilyTableViewController.m */,
+				F058DB3918FDF66E00C225DF /* ColorWheelViewController.h */,
+				F058DB3A18FDF66E00C225DF /* ColorWheelViewController.m */,
+				F058DB3C18FDF66E00C225DF /* WCSecondViewController.h */,
+				F058DB3D18FDF66E00C225DF /* WCSecondViewController.m */,
+				F01A9F911C27BAF40012A7AB /* HTML */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F01A9F8F1C2700D70012A7AB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A2B274DE19216903003B3F0F /* Main_iPhoneSave.storyboard */,
+				F058DB3318FDF66E00C225DF /* Main_iPhone.storyboard */,
+				F058DB3618FDF66E00C225DF /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F01A9F911C27BAF40012A7AB /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				F01A9FA21C27C2200012A7AB /* Achromatic.html */,
+				F01A9FA31C27C2200012A7AB /* Analogous.html */,
+				F01A9FA41C27C2200012A7AB /* ColorWheel.html */,
+				F01A9FA51C27C2200012A7AB /* Complementary.html */,
+				F01A9FA61C27C2200012A7AB /* Primary.html */,
+				F01A9FA71C27C2200012A7AB /* Rectangle.html */,
+				F01A9FA81C27C2200012A7AB /* Secondary.html */,
+				F01A9FA91C27C2200012A7AB /* Split.html */,
+				F01A9FAA1C27C2200012A7AB /* Square.html */,
+				F01A9FAB1C27C2200012A7AB /* Temperature.html */,
+				F01A9FAC1C27C2200012A7AB /* Tertiary.html */,
+				F01A9FAD1C27C2200012A7AB /* Tints.html */,
+				F01A9FAE1C27C2200012A7AB /* Triadic.html */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+		F058DB1518FDF66E00C225DF = {
+			isa = PBXGroup;
+			children = (
+				F058DB2718FDF66E00C225DF /* Watercolors */,
+				F058DB4C18FDF66E00C225DF /* WatercolorsTests */,
+				F058DB2018FDF66E00C225DF /* Frameworks */,
+				F058DB1F18FDF66E00C225DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F058DB1F18FDF66E00C225DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F058DB1E18FDF66E00C225DF /* Watercolors.app */,
+				F058DB4518FDF66E00C225DF /* WatercolorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F058DB2018FDF66E00C225DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F058DB2118FDF66E00C225DF /* Foundation.framework */,
+				F058DB2318FDF66E00C225DF /* CoreGraphics.framework */,
+				F058DB2518FDF66E00C225DF /* UIKit.framework */,
+				F058DB4618FDF66E00C225DF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F058DB2718FDF66E00C225DF /* Watercolors */ = {
+			isa = PBXGroup;
+			children = (
+				F01A9F8F1C2700D70012A7AB /* Storyboards */,
+				F058DB3018FDF66E00C225DF /* WCAppDelegate.h */,
+				F058DB3118FDF66E00C225DF /* WCAppDelegate.m */,
+				F0005213190037080007FA98 /* WCAppDelegate+MOC.h */,
+				F0005214190037080007FA98 /* WCAppDelegate+MOC.m */,
+				A2DA6DF0190EBD2C00F63A8D /* Controllers */,
+				F01A9F8D1C26E8820012A7AB /* Media.xcassets */,
+				A24C920918FEF53900950ED7 /* CoreData */,
+				F058DB2818FDF66E00C225DF /* Supporting Files */,
+			);
+			path = Watercolors;
+			sourceTree = "<group>";
+		};
+		F058DB2818FDF66E00C225DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F058DB2918FDF66E00C225DF /* Watercolors-Info.plist */,
+				F058DB2A18FDF66E00C225DF /* InfoPlist.strings */,
+				F058DB2D18FDF66E00C225DF /* main.m */,
+				F058DB2F18FDF66E00C225DF /* Watercolors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F058DB4C18FDF66E00C225DF /* WatercolorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F058DB5218FDF66E00C225DF /* WatercolorsTests.m */,
+				F058DB4D18FDF66E00C225DF /* Supporting Files */,
+			);
+			path = WatercolorsTests;
+			sourceTree = "<group>";
+		};
+		F058DB4D18FDF66E00C225DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F058DB4E18FDF66E00C225DF /* WatercolorsTests-Info.plist */,
+				F058DB4F18FDF66E00C225DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F058DB1D18FDF66E00C225DF /* Watercolors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F058DB5618FDF66E00C225DF /* Build configuration list for PBXNativeTarget "Watercolors" */;
+			buildPhases = (
+				F058DB1A18FDF66E00C225DF /* Sources */,
+				F058DB1B18FDF66E00C225DF /* Frameworks */,
+				F058DB1C18FDF66E00C225DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watercolors;
+			productName = Watercolors;
+			productReference = F058DB1E18FDF66E00C225DF /* Watercolors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F058DB4418FDF66E00C225DF /* WatercolorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F058DB5918FDF66E00C225DF /* Build configuration list for PBXNativeTarget "WatercolorsTests" */;
+			buildPhases = (
+				F058DB4118FDF66E00C225DF /* Sources */,
+				F058DB4218FDF66E00C225DF /* Frameworks */,
+				F058DB4318FDF66E00C225DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F058DB4B18FDF66E00C225DF /* PBXTargetDependency */,
+			);
+			name = WatercolorsTests;
+			productName = WatercolorsTests;
+			productReference = F058DB4518FDF66E00C225DF /* WatercolorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F058DB1618FDF66E00C225DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WC;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Refalo;
+				TargetAttributes = {
+					F058DB4418FDF66E00C225DF = {
+						TestTargetID = F058DB1D18FDF66E00C225DF;
+					};
+				};
+			};
+			buildConfigurationList = F058DB1918FDF66E00C225DF /* Build configuration list for PBXProject "Watercolors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F058DB1518FDF66E00C225DF;
+			productRefGroup = F058DB1F18FDF66E00C225DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F058DB1D18FDF66E00C225DF /* Watercolors */,
+				F058DB4418FDF66E00C225DF /* WatercolorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F058DB1C18FDF66E00C225DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01A9FB51C27C2200012A7AB /* Secondary.html in Resources */,
+				F01A9FB81C27C2200012A7AB /* Temperature.html in Resources */,
+				F01A9F901C27019F0012A7AB /* Main_iPad.storyboard in Resources */,
+				F01A9FB71C27C2200012A7AB /* Square.html in Resources */,
+				A2C03938190EF2D9004F75B0 /* paint.json in Resources */,
+				F01A9FB11C27C2200012A7AB /* ColorWheel.html in Resources */,
+				F01A9FBB1C27C2200012A7AB /* Triadic.html in Resources */,
+				F01A9FB01C27C2200012A7AB /* Analogous.html in Resources */,
+				F01A9FBA1C27C2200012A7AB /* Tints.html in Resources */,
+				A2C03939190EF2D9004F75B0 /* pigment.json in Resources */,
+				A26774FF190EF22100D31FA1 /* Main_iPhone.storyboard in Resources */,
+				F01A9F8E1C26E8820012A7AB /* Media.xcassets in Resources */,
+				F01A9FAF1C27C2200012A7AB /* Achromatic.html in Resources */,
+				F058DB2C18FDF66E00C225DF /* InfoPlist.strings in Resources */,
+				F01A9FB21C27C2200012A7AB /* Complementary.html in Resources */,
+				F01A9FB61C27C2200012A7AB /* Split.html in Resources */,
+				F01A9FB41C27C2200012A7AB /* Rectangle.html in Resources */,
+				F01A9FB31C27C2200012A7AB /* Primary.html in Resources */,
+				F01A9FB91C27C2200012A7AB /* Tertiary.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058DB4318FDF66E00C225DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F058DB5118FDF66E00C225DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F058DB1A18FDF66E00C225DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F026EC47190F305400E3FF19 /* WCPaintSearchViewController.m in Sources */,
+				F03B58AE1958BEDA00758298 /* Paint.m in Sources */,
+				A2DA6DF3190EBD7000F63A8D /* WCInventoryViewController.m in Sources */,
+				F03B58AB1958BEDA00758298 /* Pigment.m in Sources */,
+				F0005215190037080007FA98 /* WCAppDelegate+MOC.m in Sources */,
+				F058DB3E18FDF66E00C225DF /* WCSecondViewController.m in Sources */,
+				A24C920218FEF36000950ED7 /* PaintModel.xcdatamodeld in Sources */,
+				F0005212190036A70007FA98 /* CoreDataTableViewController.m in Sources */,
+				A2C0393F190EF531004F75B0 /* WCPigmentDetailTableViewController.m in Sources */,
+				F058DB3B18FDF66E00C225DF /* ColorWheelViewController.m in Sources */,
+				A256C8E9190EE13700300505 /* Paint+Extras.m in Sources */,
+				F058DB3218FDF66E00C225DF /* WCAppDelegate.m in Sources */,
+				A2DA6DF6190EBE7300F63A8D /* WCPaintDetailTableViewController.m in Sources */,
+				A26D6B391953225100FD2CAE /* WCColorSelectViewController.m in Sources */,
+				F058DB2E18FDF66E00C225DF /* main.m in Sources */,
+				A24C921418FF0CE800950ED7 /* FamilyTableViewController.m in Sources */,
+				A2C03942190F053C004F75B0 /* WCPigmentDetailViewController.m in Sources */,
+				A2C0393C190EF451004F75B0 /* WCPigmentSearchViewController.m in Sources */,
+				A256C8EC190EE13700300505 /* Pigment+Extras.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058DB4118FDF66E00C225DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F058DB5318FDF66E00C225DF /* WatercolorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F058DB4B18FDF66E00C225DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F058DB1D18FDF66E00C225DF /* Watercolors */;
+			targetProxy = F058DB4A18FDF66E00C225DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2B274DE19216903003B3F0F /* Main_iPhoneSave.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B274DF19216903003B3F0F /* Base */,
+			);
+			name = Main_iPhoneSave.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F058DB2A18FDF66E00C225DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F058DB2B18FDF66E00C225DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F058DB3318FDF66E00C225DF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F058DB3418FDF66E00C225DF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F058DB3618FDF66E00C225DF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F058DB3718FDF66E00C225DF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F058DB4F18FDF66E00C225DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F058DB5018FDF66E00C225DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F058DB5418FDF66E00C225DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F058DB5518FDF66E00C225DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F058DB5718FDF66E00C225DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watercolors/Watercolors-Prefix.pch";
+				INFOPLIST_FILE = "Watercolors/Watercolors-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.refalo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F058DB5818FDF66E00C225DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watercolors/Watercolors-Prefix.pch";
+				INFOPLIST_FILE = "Watercolors/Watercolors-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.refalo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F058DB5A18FDF66E00C225DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Watercolors.app/Watercolors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watercolors/Watercolors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatercolorsTests/WatercolorsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.refalo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F058DB5B18FDF66E00C225DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Watercolors.app/Watercolors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watercolors/Watercolors-Prefix.pch";
+				INFOPLIST_FILE = "WatercolorsTests/WatercolorsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.refalo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F058DB1918FDF66E00C225DF /* Build configuration list for PBXProject "Watercolors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F058DB5418FDF66E00C225DF /* Debug */,
+				F058DB5518FDF66E00C225DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F058DB5618FDF66E00C225DF /* Build configuration list for PBXNativeTarget "Watercolors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F058DB5718FDF66E00C225DF /* Debug */,
+				F058DB5818FDF66E00C225DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F058DB5918FDF66E00C225DF /* Build configuration list for PBXNativeTarget "WatercolorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F058DB5A18FDF66E00C225DF /* Debug */,
+				F058DB5B18FDF66E00C225DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A24C920018FEF36000950ED7 /* PaintModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A24C920118FEF36000950ED7 /* PaintModel.xcdatamodel */,
+			);
+			currentVersion = A24C920118FEF36000950ED7 /* PaintModel.xcdatamodel */;
+			path = PaintModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F058DB1618FDF66E00C225DF /* Project object */;
+}

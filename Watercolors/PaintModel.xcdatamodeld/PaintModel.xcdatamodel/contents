@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6172.15" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Paint" representedClassName="Paint" syncable="YES">
+        <attribute name="color_family" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="have" optional="YES" attributeType="Boolean" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lightfast_rating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="need" optional="YES" attributeType="Boolean" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="opacity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_names" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paint_history" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paint_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paint_number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pigment_composition" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pigments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort_order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="staining_granulating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contains" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pigment" inverseName="used_in" inverseEntity="Pigment" syncable="YES"/>
+    </entity>
+    <entity name="Pigment" representedClassName="Pigment" syncable="YES">
+        <attribute name="alternative_names" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chemical_formula" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chemical_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="history" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permanence" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pigment_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pigment_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pigment_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pigment_words" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="properties" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toxicity" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="used_in" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Paint" inverseName="contains" inverseEntity="Paint" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Paint" positionX="-63" positionY="-18" width="128" height="270"/>
+        <element name="Pigment" positionX="349" positionY="-18" width="128" height="238"/>
+    </elements>
+</model>

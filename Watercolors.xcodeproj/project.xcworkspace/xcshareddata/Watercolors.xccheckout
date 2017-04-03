@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C1E4403B-FA09-49F7-B50A-D57D7C51F76D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Watercolors</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DF2D4198671F63368803909DA402EBF90618B6B0</key>
+		<string>https://github.kp.org/P819280/Watercolors.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Watercolors.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DF2D4198671F63368803909DA402EBF90618B6B0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.kp.org/P819280/Watercolors.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DF2D4198671F63368803909DA402EBF90618B6B0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF2D4198671F63368803909DA402EBF90618B6B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Watercolors</string>
+		</dict>
+	</array>
+</dict>
+</plist>
